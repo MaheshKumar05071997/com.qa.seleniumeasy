@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 57.177 s <<< FAILURE! - in TestSuite
+com.qa.seleniumeasy.tests.ValidateEnteringValueswithExcel.validateEnteringValue  Time elapsed: 12.342 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.qa.seleniumeasy.tests.ValidateEnteringValueswithExcel.validateEnteringValue(ValidateEnteringValueswithExcel.java:50)
+
+com.qa.seleniumeasy.tests.ValidateEnteringValueswithExcel.validateEnteringValue  Time elapsed: 11.974 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.qa.seleniumeasy.tests.ValidateEnteringValueswithExcel.validateEnteringValue(ValidateEnteringValueswithExcel.java:50)
+
+com.qa.seleniumeasy.tests.ValidateEnteringValueswithExcel.validateEnteringValue  Time elapsed: 15.99 s  <<< FAILURE!
+java.lang.ClassCastException: class org.apache.commons.mail.SimpleEmail cannot be cast to class org.apache.commons.mail.MultiPartEmail (org.apache.commons.mail.SimpleEmail and org.apache.commons.mail.MultiPartEmail are in unnamed module of loader 'app')
+

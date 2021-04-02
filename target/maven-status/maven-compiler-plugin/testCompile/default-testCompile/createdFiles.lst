@@ -1,0 +1,6 @@
+com\qa\seleniumeasy\tests\ValidateDataFetch.class
+com\qa\seleniumeasy\tests\ValidateDate.class
+com\qa\seleniumeasy\tests\ValidatePaginations.class
+com\qa\seleniumeasy\tests\ValidateDragAndDrop.class
+com\qa\seleniumeasy\tests\ValidateSimple.class
+com\qa\seleniumeasy\tests\ValidateEnteringValueswithExcel.class

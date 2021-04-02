@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]">
+  <parameter name="browserName" value="firefox"/>
+  <listeners>
+    <listener class-name="com.qa.seleniumeasy.listeners.ListenerClass"/>
+  </listeners>
+  <test parallel="tests" name="ValidateEnteringValuesWithExcel(failed)">
+    <classes>
+      <class name="com.qa.seleniumeasy.tests.ValidateEnteringValueswithExcel">
+        <methods>
+          <include name="validateEnteringValue"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.qa.seleniumeasy.tests.ValidateEnteringValueswithExcel -->
+    </classes>
+  </test> <!-- ValidateEnteringValuesWithExcel(failed) -->
+</suite> <!-- Failed suite [Suite] -->
